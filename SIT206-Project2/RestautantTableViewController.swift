@@ -10,10 +10,10 @@ import UIKit
 class RestautantTableViewController: UITableViewController {
     var selectedIndex : Int = 0
     var restaurants : [Restaurant] = [
-        Restaurant(name : "China bar", star : 3, best : "BBQ pork" , address : "City", img : UIImage ( named: "x")!),
-        Restaurant(name : "Old Kingdom", star : 5, best : "Perking duck" , address : "Surrey Hill", img : UIImage ( named: "x")!),
-        Restaurant(name : "I Luv pho", star : 2, best : "Pho" , address : "Richmond", img : UIImage ( named: "x")!),
-        Restaurant(name : "La pochina", star : 5, best : "Pizza" , address : "Doncaster", img : UIImage ( named: "x")!),
+        Restaurant(name : "China bar", star : 3, best : "BBQ pork" , address : "City", img : UIImage ( named: "china")!),
+        Restaurant(name : "Old Kingdom", star : 5, best : "Perking duck" , address : "Surrey Hill", img : UIImage ( named: "Old")!),
+        Restaurant(name : "I Luv pho", star : 2, best : "Pho" , address : "Richmond", img : UIImage ( named: "pho")!),
+        Restaurant(name : "My Goodness", star : 5, best : "Pizza" , address : "Doncaster", img : UIImage ( named: "pizza")!),
         ]
     override func viewDidLoad() {
         super.viewDidLoad()

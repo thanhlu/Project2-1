@@ -18,7 +18,7 @@ class La_pochina: UIViewController {
         let distanceSpan:CLLocationDegrees = 2000
         let bsuCSCampusLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(-37.786388, 145.126438)
         mapView.setRegion(MKCoordinateRegionMakeWithDistance(bsuCSCampusLocation, distanceSpan, distanceSpan),animated: true)
-        let bsuCSClassPin = Mapkit(name: "La pochina", rating: 3, coordinate: bsuCSCampusLocation)
+        let bsuCSClassPin = Mapkit(name: "My Goodness", rating: 3, coordinate: bsuCSCampusLocation)
         mapView.addAnnotation(bsuCSClassPin)
     }
     @IBOutlet weak var text: UITextView!

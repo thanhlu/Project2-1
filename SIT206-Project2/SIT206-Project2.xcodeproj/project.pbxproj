@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07CEAAE91ED1539A00EEB11F /* FeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CEAAE81ED1539A00EEB11F /* FeedBackViewController.swift */; };
 		2907557D1ED142B400717EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907557C1ED142B400717EAB /* AppDelegate.swift */; };
 		2907557F1ED142B400717EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907557E1ED142B400717EAB /* ViewController.swift */; };
 		290755821ED142B400717EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290755801ED142B400717EAB /* Main.storyboard */; };
@@ -24,10 +25,6 @@
 		290755BA1ED143A100717EAB /* OldKingdom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290755B91ED143A100717EAB /* OldKingdom.swift */; };
 		290755BC1ED143AD00717EAB /* La pochina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290755BB1ED143AD00717EAB /* La pochina.swift */; };
 		290755BE1ED143C300717EAB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290755BD1ED143C300717EAB /* File.swift */; };
-		290755C21ED1451B00717EAB /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 290755BF1ED1451B00717EAB /* a.png */; };
-		290755C31ED1451B00717EAB /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 290755C01ED1451B00717EAB /* b.jpg */; };
-		290755C41ED1451B00717EAB /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 290755C11ED1451B00717EAB /* c.jpg */; };
-		290755C61ED1466300717EAB /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 290755C51ED1466300717EAB /* x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07CEAAE81ED1539A00EEB11F /* FeedBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackViewController.swift; sourceTree = "<group>"; };
 		290755791ED142B400717EAB /* SIT206-Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SIT206-Project2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2907557C1ED142B400717EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2907557E1ED142B400717EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,10 +69,6 @@
 		290755B91ED143A100717EAB /* OldKingdom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldKingdom.swift; sourceTree = "<group>"; };
 		290755BB1ED143AD00717EAB /* La pochina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "La pochina.swift"; sourceTree = "<group>"; };
 		290755BD1ED143C300717EAB /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		290755BF1ED1451B00717EAB /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a.png; path = ../../../../Desktop/a.png; sourceTree = "<group>"; };
-		290755C01ED1451B00717EAB /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = b.jpg; path = ../../../../Desktop/b.jpg; sourceTree = "<group>"; };
-		290755C11ED1451B00717EAB /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = c.jpg; path = ../../../../Desktop/c.jpg; sourceTree = "<group>"; };
-		290755C51ED1466300717EAB /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = "../../../../Desktop/project 2/x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +127,6 @@
 				290755801ED142B400717EAB /* Main.storyboard */,
 				290755B11ED1436100717EAB /* MapViewController.swift */,
 				290755831ED142B400717EAB /* Assets.xcassets */,
-				290755BF1ED1451B00717EAB /* a.png */,
-				290755C51ED1466300717EAB /* x.png */,
-				290755C01ED1451B00717EAB /* b.jpg */,
-				290755C11ED1451B00717EAB /* c.jpg */,
 				290755851ED142B400717EAB /* LaunchScreen.storyboard */,
 				290755B91ED143A100717EAB /* OldKingdom.swift */,
 				290755B51ED1438700717EAB /* MapKit.swift */,
@@ -146,6 +136,7 @@
 				290755881ED142B400717EAB /* Info.plist */,
 				290755AF1ED1434D00717EAB /* RestarantInfoTableViewController.swift */,
 				290755BD1ED143C300717EAB /* File.swift */,
+				07CEAAE81ED1539A00EEB11F /* FeedBackViewController.swift */,
 			);
 			path = "SIT206-Project2";
 			sourceTree = "<group>";
@@ -289,10 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				290755871ED142B400717EAB /* LaunchScreen.storyboard in Resources */,
-				290755C31ED1451B00717EAB /* b.jpg in Resources */,
-				290755C61ED1466300717EAB /* x.png in Resources */,
-				290755C21ED1451B00717EAB /* a.png in Resources */,
-				290755C41ED1451B00717EAB /* c.jpg in Resources */,
 				290755841ED142B400717EAB /* Assets.xcassets in Resources */,
 				290755821ED142B400717EAB /* Main.storyboard in Resources */,
 			);
@@ -326,6 +313,7 @@
 				2907557F1ED142B400717EAB /* ViewController.swift in Sources */,
 				290755B21ED1436100717EAB /* MapViewController.swift in Sources */,
 				290755BC1ED143AD00717EAB /* La pochina.swift in Sources */,
+				07CEAAE91ED1539A00EEB11F /* FeedBackViewController.swift in Sources */,
 				290755BA1ED143A100717EAB /* OldKingdom.swift in Sources */,
 				2907557D1ED142B400717EAB /* AppDelegate.swift in Sources */,
 				290755BE1ED143C300717EAB /* File.swift in Sources */,
@@ -574,6 +562,7 @@
 				290755A31ED142B400717EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290755A41ED142B400717EAB /* Build configuration list for PBXNativeTarget "SIT206-Project2Tests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +571,7 @@
 				290755A61ED142B400717EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290755A71ED142B400717EAB /* Build configuration list for PBXNativeTarget "SIT206-Project2UITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +580,7 @@
 				290755A91ED142B400717EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
